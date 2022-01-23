@@ -290,4 +290,8 @@ body{
         visibility: hidden;
 
     }
+
+    .symptons th,td{
+        font-size: 14px;
+    }
 }
