@@ -283,3 +283,8 @@ body{
     }
 }
 
+@media only screen and (max-width: 490px){
+    .nav{
+        visibility: hidden;
+    }
+}
