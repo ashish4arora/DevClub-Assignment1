@@ -250,13 +250,6 @@ body{
 
 }
 
-@media only screen and (max-width: 550px){
-
-    .main h1{
-        top: 80vh;
-    }
-
-}
 
 @media only screen and (max-width: 960px){
     .youtube iframe{
@@ -283,7 +276,7 @@ body{
     }
 }
 
-@media only screen and (max-width: 490px){
+/* @media only screen and (max-width: 560px){
     .nav{
         position: fixed;
         display: none;
@@ -293,5 +286,43 @@ body{
 
     .symptons th,td{
         font-size: 14px;
+    }
+} */
+
+@media only screen and (max-width: 560px){
+    .main h1{
+        font-size: 64px;
+        top: 50vh;
+    }
+
+    .main h2{
+        font-size: 32px;
+        word-wrap: break-word;
+    }
+
+    .nav{
+        position: fixed;
+        display: none;
+        visibility: hidden;
+
+    }
+
+    .symptons th,td{
+        font-size: 14px;
+    }
+
+    .main{
+        height: 120vh;
+    }
+}
+
+@media only screen and (max-width:410px){
+    .main h1{
+        top: 60vh;
+
+    }
+
+    .main{
+        height: 140vh;
     }
 }
