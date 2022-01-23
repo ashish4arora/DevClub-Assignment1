@@ -352,5 +352,9 @@ body{
         font-size: 24px;
     }
 
+    .main{
+        height: 140vh;
+    }
+
 
 }
