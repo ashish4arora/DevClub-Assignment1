@@ -285,6 +285,9 @@ body{
 
 @media only screen and (max-width: 490px){
     .nav{
+        position: fixed;
+        display: none;
         visibility: hidden;
+
     }
 }
