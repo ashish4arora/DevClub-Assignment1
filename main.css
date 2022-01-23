@@ -140,7 +140,7 @@ body{
     font-weight: 600;
     font-size: 54px;   
     color: #4C0027; 
-    margin: 15vh;
+    margin: 15vh 0;
     margin-bottom: 10vh;
 }
 
@@ -262,7 +262,6 @@ body{
         width: 80vw;
         display: block;
         align-items: center;
-        padding: 0 5vw;
     }
 
     .tips img{
@@ -273,6 +272,13 @@ body{
     .tips h2{
         text-align: center;
         margin: 5vh
+    }
+
+    .tips div{
+        padding: 0;
+    }
+    .tips div{
+        margin: auto;
     }
 }
 
@@ -300,6 +306,7 @@ body{
         word-wrap: break-word;
     }
 
+
     .nav{
         position: fixed;
         display: none;
@@ -307,12 +314,12 @@ body{
 
     }
 
-    .symptons th,td{
+    .symptoms th,td{
         font-size: 14px;
     }
 
     .main{
-        height: 120vh;
+        height: 100vh;
     }
 }
 
@@ -323,6 +330,27 @@ body{
     }
 
     .main{
-        height: 140vh;
+        height: 120vh;
     }
+}
+
+@media only screen and (max-width: 360px){
+    .symptoms h1{
+        font-size: 36px;
+    }
+
+    .faqs h1{
+        font-size: 36px;
+    }
+
+    .tips h1{
+        font-size: 36px;
+    }
+
+
+    .footer h1{
+        font-size: 24px;
+    }
+
+
 }
