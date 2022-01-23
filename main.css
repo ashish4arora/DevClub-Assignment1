@@ -298,12 +298,16 @@ body{
 @media only screen and (max-width: 560px){
     .main h1{
         font-size: 64px;
-        top: 50vh;
+        top: 40vh;
+    }
+
+    .main h2{
+        top: 10vh;
     }
 
     .main h2{
         font-size: 32px;
-        word-wrap: break-word;
+        /* word-wrap: break-word; */
     }
 
 
@@ -319,18 +323,18 @@ body{
     }
 
     .main{
-        height: 110vh;
+        height: 100vh;
     }
 }
 
 @media only screen and (max-width:410px){
     .main h1{
-        top: 60vh;
+        top: 50vh;
 
     }
 
     .main{
-        height: 130vh;
+        height: 120vh;
     }
 }
 
@@ -353,8 +357,16 @@ body{
     }
 
     .main{
-        height: 140vh;
+        height: 130vh;
     }
 
+}
 
+@media only screen and (max-width:320px){
+    .main{
+        height: 140vh;
+    }
+    .main h1{
+        top: 60vh;
+    }
 }
